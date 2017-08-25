@@ -12,6 +12,14 @@ h1 {
   color: rgb(123, 20, 233);
   background-color: rgb(99, 21, 127);
 }
+RGB colors support OPACITY (hex color codes do not)
+The extra a character in the rgba() value is known as the alpha value. 
+It represents the opacity of a color. The alpha value can be a number between 0 or 1, inclusive.
+h1 {
+  color: rgba(123, 88, 9, 0.5);
+}
+In the example above, the alpha value has been set to 0.5. 
+This indicates that the color of the heading will be set to 50% of its normal opacity.
 
 
 Hex Colors
@@ -26,6 +34,7 @@ h2 {
 }
 
 
+HSL (is a part of CSS3, older browsers may not support it)
 HSL stands for Hue, Saturation, and Lightness. Specifically, this is what each means:
 
 Hue - the technical term that describes what we understand as "color." 
@@ -45,7 +54,12 @@ You can use HSL colors in your CSS like this:
 h1 {
   color: hsl(182, 20%, 50%);
 }
-Note: Because HSL is a part of CSS3, older browsers may not support it
+The alpha value can also be used for HSL colors, using hsla():
+h1 {
+  color: hsla(239, 45%, 22%, 0.4);
+}
+
+
 
 ------------------------------------------------------------
 
