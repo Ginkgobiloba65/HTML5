@@ -1,0 +1,34 @@
+
+element.class:
+
+.breaking {
+  font-family: Georgia, Times, serif;
+}
+
+p.breaking {
+  line-height: 1.3em;
+}
+What's the difference between the .breaking and p.breaking selectors?
+
+The .breaking selector targets all elements with a class of breaking. 
+The p.breaking selector targets only <p> elements with a class of breaking (element.class). 
+
+
+using multiple classes for an element is extremely common in web development. 
+es. 
+<h1 class="book domestic">The Way of the Deep</h1>
+<h1 class="book foreign">A Night in the Sky</h1>
+
+
+
+
+We need a way of organizing the contents of the HTML file:
+Keep HTML code easy to read.
+Group elements that belong together (using DIV). 
+
+You can think of the div as a container, that groups elements that belong together.
+For example, a <div> can be used to group together all of the elements that make up the navigation for a web page, 
+or any other section of a page.
+
+Understanding the Box Model
+Learn about some of the most important techniques used to organize HTML code.
