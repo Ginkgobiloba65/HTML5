@@ -4,65 +4,6 @@ the universal selector, *, is used to select every element on the page and set t
 }
 In the example above is used to select every element on the page and set the font to Arial.
 
---------------------------------------------------------
-COLORI:
-
-RGB colors, rgb() when styling a color.
-h1 {
-  color: rgb(123, 20, 233);
-  background-color: rgb(99, 21, 127);
-}
-RGB colors support OPACITY (hex color codes do not)
-The extra a character in the rgba() value is known as the alpha value. 
-It represents the opacity of a color. The alpha value can be a number between 0 or 1, inclusive.
-h1 {
-  color: rgba(123, 88, 9, 0.5);
-}
-In the example above, the alpha value has been set to 0.5. 
-This indicates that the color of the heading will be set to 50% of its normal opacity.
-
-
-Hex Colors
-h1 {
-  color: #FFFFFF;
-  color: #FFF; /* This is the same color as above */
-}
-When a hex color code is composed of entirely of the same characters, the hex color can be abbreviated, like so:
-h2 {
-  color: #AA33BB;
-  color: #A3B; /* This is the same color as above */
-}
-
-
-HSL (is a part of CSS3, older browsers may not support it)
-HSL stands for Hue, Saturation, and Lightness. Specifically, this is what each means:
-
-Hue - the technical term that describes what we understand as "color." 
-In HSL, hue is represented on a color wheel. 
-It can take on values between 0 and 360.
-
-Saturation - the amount of gray in a given color. 
-In HSL, saturation is specified using a percentage between 0% and 100%. 
-The percentage 0% represents a shade of gray, whereas 100% represents full saturation.
-
-Lightness - the amount of white in a given color. 
-Similar to saturation, lightness is specified using a percentage between 0% and 100%. 
-The percentage 0% represents black, whereas 100% represents white. 
-50% is normal.
-
-You can use HSL colors in your CSS like this:
-h1 {
-  color: hsl(182, 20%, 50%);
-}
-The alpha value can also be used for HSL colors, using hsla():
-h1 {
-  color: hsla(239, 45%, 22%, 0.4);
-}
-
-
-
-------------------------------------------------------------
-
 Indentation & Spacing
 Just like HTML, CSS follows certain best practices for spacing and indentation.
 h1 {
