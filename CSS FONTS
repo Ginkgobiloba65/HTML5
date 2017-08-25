@@ -1,6 +1,15 @@
 
 -------------------------------------------------
 FONTS
+ Google offers Google Fonts, a directory of thousands of open-source fonts that are free to use by anyone.
+ es. <link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet" > 
+ where Roboto is the font and 100 specifies an optional font weight for Roboto 
+ 
+Se è due parole usare + e nello stile le virgolette
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" type="text/css" rel="stylesheet"> 
+h1 {
+  font-family: "Playfair Display", serif;
+}
 
 1 The font specified in a stylesheet must be installed on a user's computer in order for that font to display when a user visit the web page. 
 We'll learn how to work around this issue in a later exercise.
