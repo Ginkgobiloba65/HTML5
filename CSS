@@ -1,0 +1,5 @@
+the universal selector, *, is used to select every element on the page and set the font to Arial.
+* {
+  font-family: Arial;
+}
+In the example above is used to select every element on the page and set the font to Arial.
