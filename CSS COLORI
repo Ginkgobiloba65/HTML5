@@ -67,4 +67,4 @@ In CSS, the latter of multiple declarations takes priority.
 In the example above, if the user's browser supports rgba(), then that color will be applied to the heading. 
 If it does not, then CSS will use the first rgb() color declaration, as a backup.
 
-------------------------------------------------------------
+---------------------------------------------------------
