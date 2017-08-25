@@ -12,3 +12,21 @@ it must be enclosed in double quotes (otherwise it will not be recognized), like
 h1 {
   font-family: "Courier New";
 }
+
+Serif vs Sans-Serif
+The practice of typography has been around for centuries! 
+Over time, typographers have refined their craft and have developed many different typefaces, 
+which has allowed them, in some cases, to classify them as one of the following two types: 
+serif fonts and sans-serif fonts.
+
+Serif - the letters in these fonts have extra details on the ends of each letter. 
+Examples include fonts like Times New Roman or Georgia, among others.
+Sans-Serif - the letters in these fonts do not have extra details on the ends of each letter. 
+Instead, letters have straight, flat edges. Some examples include Arial or Helvetica.
+
+h1 {
+  font-family: Garamond, Times, serif;
+}
+The CSS rule above says: "Use the Garamond font for all <h1> elements on the web page. 
+If that font is not available, use the Times font. 
+If both of those fonts are not available, use any serif font pre-installed on the user's computer."
