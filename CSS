@@ -7,12 +7,22 @@ In the example above is used to select every element on the page and set the fon
 
 
 
-To use RGB colors, you can use the rgb() value when styling a color.
+RGB colors, rgb() when styling a color.
 h1 {
   color: rgb(123, 20, 233);
   background-color: rgb(99, 21, 127);
 }
 
+Hex Colors
+h1 {
+  color: #FFFFFF;
+  color: #FFF; /* This is the same color as above */
+}
+When a hex color code is composed of entirely of the same characters, the hex color can be abbreviated, like so:
+h2 {
+  color: #AA33BB;
+  color: #A3B; /* This is the same color as above */
+}
 
 
 Indentation & Spacing
