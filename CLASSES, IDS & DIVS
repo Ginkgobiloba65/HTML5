@@ -32,3 +32,26 @@ or any other section of a page.
 
 Understanding the Box Model
 Learn about some of the most important techniques used to organize HTML code.
+All HTML elements live within a box. 
+Elements on a web page are understood by the browser as "living" inside of a container, or a box. 
+This is what is meant by the box model.
+Width & Height: An element's box has two dimensions: a height and a width. 
+In HTML, all boxes have default dimensions. These default dimensions are automatically set to hold the raw contents of the box.
+
+To modify the default dimensions an element's box in CSS, you can use the width and height properties 
+with the following units of measurement:
+
+Pixels - You learned about pixels when you learned about fonts. This unit lets you set the exact size of an element's box.
+
+Ems - This unit sets the dimensions of the box relative to the size of the text within the box.
+
+Percentages - This unit sets the dimensions of the box relative to the size of the box that it is encased in. 
+For example, consider an element (a box) of class blue set to a height of 200 pixels and a width of 200 pixels. 
+Inside of blue, consider another box of class red, set to a height of 37% and a width of 45%. 
+The resulting dimensions of the red box would be a height of 74 pixels and a width of 90 pixels.
+
+Developers often use ems or percentages to set box dimensions. 
+Because many web pages are now accessed on mobile devices and other displays of differing sizes, 
+ems and percentages allow boxes to scale depending on the size of a user's display.
+
+
