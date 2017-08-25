@@ -1,0 +1,14 @@
+
+-------------------------------------------------
+FONTS
+
+1 The font specified in a stylesheet must be installed on a user's computer in order for that font to display when a user visit the web page. 
+We'll learn how to work around this issue in a later exercise.
+
+2 It's a good practice to limit the number of typefaces used on a web page to 2 or 3.
+
+3 When the name of a typeface consists of more than one word, 
+it must be enclosed in double quotes (otherwise it will not be recognized), like so:
+h1 {
+  font-family: "Courier New";
+}
