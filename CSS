@@ -4,15 +4,21 @@ the universal selector, *, is used to select every element on the page and set t
 }
 In the example above is used to select every element on the page and set the font to Arial.
 
-Indentation & Spacing
-Just like HTML, CSS follows certain best practices for spacing and indentation.
 
+
+
+To use RGB colors, you can use the rgb() value when styling a color.
 h1 {
-  color: blue;
+  color: rgb(123, 20, 233);
+  background-color: rgb(99, 21, 127);
 }
 
-p {
-  color: red;
+
+
+Indentation & Spacing
+Just like HTML, CSS follows certain best practices for spacing and indentation.
+h1 {
+  color: blue;
 }
 One space should be used between the selector and the opening curly brace ({).
 No extra spaces should exist between opening and closing curly braces ({ and }) and CSS declarations (as in the example above).
