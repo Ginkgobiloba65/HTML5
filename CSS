@@ -45,7 +45,7 @@ You can use HSL colors in your CSS like this:
 h1 {
   color: hsl(182, 20%, 50%);
 }
-
+Note: Because HSL is a part of CSS3, older browsers may not support it
 
 ------------------------------------------------------------
 
